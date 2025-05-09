@@ -1,11 +1,11 @@
-import js from '@eslint/js';
-import globals from 'globals';
-import tseslint from 'typescript-eslint';
-import pluginVue from 'eslint-plugin-vue';
-import { defineConfig } from 'eslint/config';
-import prettier from 'eslint-plugin-prettier/recommended';
-import vueConfigTypescript from '@vue/eslint-config-typescript';
-import vueConfigPrettier from '@vue/eslint-config-prettier';
+import js from '@eslint/js'
+import vueConfigPrettier from '@vue/eslint-config-prettier'
+import vueConfigTypescript from '@vue/eslint-config-typescript'
+import prettier from 'eslint-plugin-prettier/recommended'
+import pluginVue from 'eslint-plugin-vue'
+import { defineConfig } from 'eslint/config'
+import globals from 'globals'
+import tseslint from 'typescript-eslint'
 
 export default defineConfig([
   {
@@ -63,4 +63,4 @@ export default defineConfig([
       ],
     },
   },
-]);
+])
